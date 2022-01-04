@@ -1,10 +1,9 @@
 const app = require('./src/app');
 
+let port = process.env.PORT || 3000;
+//Servidor
+app.listen(port, function(){
+    console.log(`El servidor está corriendo en el puerto ${port}`)
+});
 
-async function main (){
-    await app.listen(app.get('port')); //Puerto configurado en app.js
-    console.log('Server on port', app.get('port'));
-}
-
-main();
 

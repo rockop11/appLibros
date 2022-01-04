@@ -5,9 +5,7 @@ const path = require('path');
 //MORGAN MIDDLEWARE
 const morgan = require('morgan');
 
-// Settings 
-//Puerto
-app.set('port', 5000);
+// Settings
 //Path
 app.set('views', path.join(__dirname, 'views'));
 //Ejs
