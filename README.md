@@ -8,7 +8,7 @@ If you want to see the demo of this proyect deployed, you can visit [Demo of the
 If you have special requirements, you have to list it step by step.
 * clone the repository "git clone https://github.com/rockop11/appLibros.git"
 * npm i (install all the dependencies)
-* run it width "node index.js" (check it on localhost:3000)
+* run it with "node index.js" (check it on localhost:3000)
 
 
 ### ENJOY IT
